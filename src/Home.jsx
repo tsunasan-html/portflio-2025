@@ -14,7 +14,7 @@ function Home() {
     <Layout>
     <div className="main-visual">
       <div>
-        <motion.h1 className="main-visual__title">
+        <motion.h1 style={{lineHeight: '1.2'}} className="main-visual__title">
           {title.split("").map((char, index) => (
             <motion.span
               key={index}
