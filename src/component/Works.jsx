@@ -66,7 +66,7 @@ function Works() {
                 </Link>
               </li>
               <li className="works_listItem">
-                <Link  target="_blank" to="https://pokemon-illustrated-book.vercel.app/" className="">
+                <Link target="_blank" to="https://pokemon-illustrated-book.vercel.app/" className="">
                   <img 
                     src={works02} 
                     className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 

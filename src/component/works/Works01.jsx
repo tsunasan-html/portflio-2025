@@ -92,7 +92,6 @@ function Works01() {
               </li>
             </ul>
 
-
             <p className={`works_sentence animate-on-scroll ${isVisible ? 'visible' : ''}`}>
               下記は簡易的なバージョンの料金シュミレーションで、Reactを使用して作成しVercelにデプロイしたものです。
               <br /> 
