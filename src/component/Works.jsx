@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import works01 from '../assets/works01/img01.png';
 import works02 from '../assets/works02/img01.png';
+import works03 from '../assets/works03/img01.png';
 import  worksComingSoon from '../assets/coming-soon.png';
 
 
@@ -70,7 +71,7 @@ function Works() {
                   <img 
                     src={works02} 
                     className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 
-                    alt="ACA Football Partners" 
+                    alt="" 
                   />
                   <div className="works_listItem_textblock">
                     <h2 className="works_title">Website using PokéAPI</h2>
@@ -78,14 +79,14 @@ function Works() {
                 </Link>
               </li>
               <li className="works_listItem">
-                <Link to="/works01" className="">
+                <Link to="https://3d-scroll-lemon-omega.vercel.app/" className="">
                   <img
-                    src={worksComingSoon} 
+                    src={works03} 
                     className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 
                     alt="Miraie" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">COMING SOON...</h2>
+                    <h2 className="works_title">3D Scroll Portfolio</h2>
                   </div>
                 </Link>
               </li>
