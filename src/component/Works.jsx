@@ -74,12 +74,12 @@ function Works() {
                     alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">Website using PokéAPI</h2>
+                    <h2 className="works_title">PokéAPI Portfolio</h2>
                   </div>
                 </Link>
               </li>
               <li className="works_listItem">
-                <Link to="https://3d-scroll-lemon-omega.vercel.app/" className="">
+                <Link to="https://3d-scroll-lemon-omega.vercel.app/" target="_blank" className="">
                   <img
                     src={works03} 
                     className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 
