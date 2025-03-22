@@ -59,7 +59,7 @@ header {
 
 ul {
   list-style: none; 
-  padding: 0;        
+  padding: 0;
   margin: 0;        
 }
 ul li a {
@@ -93,21 +93,26 @@ ul li a {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/src/assets/photo.png') center / cover;
+  background-attachment: fixed;
+  background-position: top;
 }
 
 .main-visual__title {
   margin: 0;
-  position: absolute;
-  top: calc(50% - 0.5em);
+  position: fixed; 
+  top: calc(50% - 0.5em); 
+  left: 50%;
+  transform: translateX(-50%); 
   width: 100%;
   text-align: center;
   line-height: 1;
   letter-spacing: .2em;
   font-size: 2.25vw;
- 
   color: rgb(249, 249, 249);
   opacity: .9;
+  z-index: 1; 
 }
+
 
 .main-visual__subtitle {
   font-size: 1.125vw;
@@ -137,11 +142,13 @@ ul li a {
     background-position: calc(62% + 10vw) center;
   }
   .main-visual__title {
-    font-size: 6.4vw;
+    font-size: 4.8vw;
+    line-height: 2em;
   }
   .main-visual__subtitle {
-    font-size: 4vw;
-    letter-spacing: 0.2em;
+    font-size: 3vw;
+    letter-spacing: .5em;
+    line-height: 2em;
   }
   .content__title {
     font-size: 5.4vw;

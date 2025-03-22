@@ -40,7 +40,8 @@ function About() {
               加えて、GASやJavaScriptを活用したフロントエンド開発にも携わり、
               <br />Next.jsやTypeScriptを用いたWebサイト運用や、
               <br />VPSを利用したWordPressの移行作業も経験しました。<br /><br />
-              現在はReactを独学中。このページもReactで作られています。
+              現在はReact, Next.js, TypeScriptを学習中。<br />
+              ※このページはReactで作られています。
             </p>
           </section>
         </div>

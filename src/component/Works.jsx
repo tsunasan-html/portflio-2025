@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import works01 from '../assets/works01/img01.png';
 import works02 from '../assets/works02/img01.png';
 import works03 from '../assets/works03/img01.png';
+import works04 from '../assets/works04/img01.png';
 import  worksComingSoon from '../assets/coming-soon.png';
 
 
@@ -59,7 +60,7 @@ function Works() {
                   <img 
                     src={works01} 
                     className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 
-                    alt="Miraie" 
+                    alt="" 
                   />
                   <div className="works_listItem_textblock">
                     <h2 className="works_title">PRICING TOOLS</h2>
@@ -67,38 +68,38 @@ function Works() {
                 </Link>
               </li>
               <li className="works_listItem">
-                <Link target="_blank" to="https://pokemon-illustrated-book.vercel.app/" className="">
+                <Link target="_blank" to="https://gorilla.clinic/" className="">
                   <img 
                     src={works02} 
                     className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 
                     alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">PokéAPI Portfolio</h2>
+                    <h2 className="works_title">I Worked Here</h2>
                   </div>
                 </Link>
               </li>
               <li className="works_listItem">
-                <Link to="https://3d-scroll-lemon-omega.vercel.app/" target="_blank" className="">
+                <Link to="/works" target="_blank" className="">
                   <img
-                    src={works03} 
+                    src={worksComingSoon} 
                     className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 
-                    alt="Miraie" 
+                    alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">3D Scroll Portfolio</h2>
+                    <h2 className="works_title">Comming Soon...</h2>
                   </div>
                 </Link>
               </li>
               <li className="works_listItem">
-                <Link to="/works01" className="">
+                <Link to="/works" target="_blank" className="">
                   <img 
                     src={worksComingSoon} 
                     className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 
-                    alt="ACA Football Partners" 
+                    alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">COMING SOON...</h2>
+                    <h2 className="works_title">Comming Soon...</h2>
                   </div>
                 </Link>
               </li>

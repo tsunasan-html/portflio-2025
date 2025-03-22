@@ -1,53 +1,38 @@
-import { motion } from "framer-motion";
 import About from './component/About';
 import Contact from './component/Contact';
 import Works from './component/Works';
 import Footer from './component/Footer'; 
 import Layout from "./component/Layout"; 
+import Scroll from "./component/Scroll"; 
 
 const title = "TETSUHIRO MUNEYUKI";
 const subtitle = "IT IS A WEB DESIGNER'S PORTFOLIO.";
 
 function Home() {
-
   return (
     <Layout>
-    <div className="main-visual">
-      <div>
-        <motion.h1 style={{lineHeight: '1.2'}} className="main-visual__title">
-          {title.split("").map((char, index) => (
-            <motion.span
-              key={index}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{
-                delay: index * 0.1,
-                duration: 0.5,
-              }}
-            >
-              {char}
-            </motion.span>
-          ))}
-          <motion.span
-            className="main-visual__subtitle"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeOut",
-              delay: title.length * 0.05 + 1.4,
-            }}
-          >
-            {subtitle}
-          </motion.span>
-        </motion.h1>
+      <div className="main-visual">
+        <Scroll />
+        <div>
+          <h1 style={{lineHeight: '1.2'}} className="main-visual__title">
+            {title.split("").map((char, index) => (
+              <span key={index}>
+                {char}
+              </span>
+            ))}
+            <span className="main-visual__subtitle">
+              {subtitle}
+            </span>
+          </h1>
+        </div>
       </div>
-    </div>
 
-    <About />
-    <Works />
-    <Contact />
-    <Footer />
+      <div style={{ position: 'relative', zIndex: 2 }}>
+        <About />
+        <Works />
+        <Contact />
+        <Footer />
+      </div>
     </Layout>
   );
 }

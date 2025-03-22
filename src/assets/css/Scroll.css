@@ -1,0 +1,47 @@
+.scroll-downs {
+  position: fixed;
+  left: 50%;
+  bottom: 66px; 
+  transform: translateX(-50%);
+  width: 34px;
+  height: 55px;
+  opacity: .9;
+  z-index: 2;
+}
+@media (max-width: 767px) {
+  .scroll-downs {
+    display: none;
+  }
+}
+
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation: scroll 2.2s cubic-bezier(0.15, 0.41, 0.69, 0.94) infinite;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
