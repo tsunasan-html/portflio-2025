@@ -1,3 +1,7 @@
+:root {
+  --viewport: 750;
+}
+
 .scroll {
   position: fixed;
   left: 50%;
@@ -8,6 +12,7 @@
 @media screen and (max-width: 767px) {
   .scroll {
     position: absolute;
+    bottom: calc(100vw / var(--viewport)* 60);
   }
 }
 
