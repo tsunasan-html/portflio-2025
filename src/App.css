@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: #ecece7;
   font-family: "Montserrat", sans-serif;
+ 
   
 }
 ::-webkit-scrollbar {
@@ -96,7 +97,6 @@ ul li a {
   background-attachment: fixed;
   background-position: top;
 }
-
 .main-visual__title {
   margin: 0;
   position: fixed; 
@@ -111,6 +111,21 @@ ul li a {
   color: rgb(249, 249, 249);
   opacity: .9;
   z-index: 1; 
+}
+@media screen and (max-width: 767px) {
+  .main-visual {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: calc(62% + 10vw) center;
+    background-attachment: fixed;
+    background-position: top;
+  }
+  .main-visual__title {
+    position: fixed; 
+    top: calc(50% - 0.5em); 
+    z-index: 1; 
+  }
 }
 
 
@@ -138,9 +153,7 @@ ul li a {
     font-size: 2.7vw;
     line-height: 10.5vw;
   }
-  .main-visual {
-    background-position: calc(62% + 10vw) center;
-  }
+
   .main-visual__title {
     font-size: 4.8vw;
     line-height: 2em;

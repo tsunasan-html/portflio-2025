@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import About from './component/About';
 import Contact from './component/Contact';
 import Works from './component/Works';
@@ -9,12 +10,23 @@ const title = "TETSUHIRO MUNEYUKI";
 const subtitle = "IT IS A WEB DESIGNER'S PORTFOLIO.";
 
 function Home() {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    // ページロード時にフェードイン
+    const timer = setTimeout(() => {
+      setShow(true);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <Layout>
-      <div className="main-visual">
+      <div className={`main-visual pattern1 ${show ? 'show' : ''}`}>
         <Scroll />
         <div>
-          <h1 style={{lineHeight: '1.2'}} className="main-visual__title">
+          <h1 style={{ lineHeight: '1.2' }} className="main-visual__title">
             {title.split("").map((char, index) => (
               <span key={index}>
                 {char}
