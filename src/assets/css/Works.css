@@ -75,8 +75,9 @@
     font-size: 3.2vw;
   }
 }
-
-.works_listItem img:hover {
-  filter: blur(1px);
-  transition: all 0.3s ease-in; 
-}  
+@media screen and (min-width: 768px) {
+  .works_listItem img:hover {
+    filter: blur(1px);
+    transition: all 0.3s ease-in; 
+  } 
+} 
