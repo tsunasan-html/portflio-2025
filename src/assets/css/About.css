@@ -87,3 +87,16 @@
   letter-spacing: .1em;
   }
 }
+
+
+@media (min-width: 768px) {
+  .line-break {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .line-break {
+    display: none; 
+  }
+}

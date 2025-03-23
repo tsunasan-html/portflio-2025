@@ -87,7 +87,7 @@ function Works() {
                     alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">Spotify API × React</h2>
+                    <h2 className="works_title">Spotify API × React - Portfolio</h2>
                   </div>
                 </Link>
               </li>
