@@ -3,8 +3,6 @@ body {
   margin: 0;
   background-color: #ecece7;
   font-family: "Montserrat", sans-serif;
- 
-  
 }
 ::-webkit-scrollbar {
   display: none;
@@ -144,7 +142,7 @@ ul li a {
     background-attachment: scroll; 
   }
   .main-visual__title {
-    position: absolute;  
+     position: absolute;  
     font-size: 4.8vw;
     line-height: 2em;
   }

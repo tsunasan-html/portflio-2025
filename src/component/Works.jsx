@@ -80,14 +80,14 @@ function Works() {
                 </Link>
               </li>
               <li className="works_listItem">
-                <Link to="/works" target="_blank" className="">
+                <Link to="https://spotify-app-ji1q.vercel.app/" target="_blank" className="">
                   <img
-                    src={worksComingSoon} 
+                    src={works03} 
                     className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 
                     alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">Comming Soon...</h2>
+                    <h2 className="works_title">Spotify API × React</h2>
                   </div>
                 </Link>
               </li>
