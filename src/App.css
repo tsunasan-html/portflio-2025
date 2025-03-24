@@ -91,9 +91,11 @@ ul li a {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/src/assets/photo.png') center / cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+   url('/src/assets/photo.png');
   background-attachment: fixed;
-  background-position: top;
+  background-size: cover;
+  background-position: center;
 }
 
 .main-visual__title {
