@@ -48,9 +48,8 @@
   vertical-align: middle;
   position: absolute;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  line-height: 4vw;
+  /* top: 50%; */
+  line-height: 3vw;
   border-left: 1px solid #9c9c9b;
   color: #9c9c9b;
   font-weight: normal;
