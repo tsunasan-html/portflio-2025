@@ -42,10 +42,10 @@ function About() {
               開発業務ではJS,GASを活用したフロントエンド開発などを経験。<br /><br />
 
               また、VPSサーバーへのSSH接続を通じてデータベースの構築、<br className="line-break" />
-              Next.js,TypeScriptを活用したWebサイトの保守運用にも携わり、<br className="line-break" />
-              幅広い技術領域での業務経験を積んできました。<br /><br />
+              Next.js,TypeScriptで開発されたWebサイトの保守運用にも携わり、<br className="line-break" />
+              幅広い技術領域での業務を経験。<br /><br />
 
-              現在は、React,Next.js,TSを活用した開発スキルの向上に取り組み中。<br />
+              現在は、React,Next.js,TypeScriptでの開発スキルの向上中。<br />
               ※このページはReactで作られています。
             </p>
           </section>

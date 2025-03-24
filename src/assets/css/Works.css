@@ -1,28 +1,35 @@
 
-  .works_listItem_eyecatch {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 1s ease, transform 1s ease;
-  }
-  
-  .works_listItem_eyecatch.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.works_listItem_eyecatch {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
 
-  .works_listItem_textblock {
-    transition: opacity 1s ease;
-  }
-  
-  .works_listItem_eyecatch.fadein {
-    transition: opacity 1s ease, transform 1s ease;
-  }
-  
-  .works_listItem_eyecatch.scrollin {
-    transition: opacity 1s ease, transform 1s ease;
-  }
-  
-  
+.works_listItem_eyecatch.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.works_listItem_textblock {
+  transition: opacity 1s ease;
+}
+
+.works_listItem_eyecatch.fadein {
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.works_listItem_eyecatch.scrollin {
+  transition: opacity 1s ease, transform 1s ease;
+}
+.works_title {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.works_title.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .works_list {
     width: 72vw;

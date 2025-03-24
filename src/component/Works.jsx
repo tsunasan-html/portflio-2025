@@ -5,13 +5,12 @@ import { Link } from 'react-router-dom';
 import works01 from '../assets/works01/img01.png';
 import works02 from '../assets/works02/img01.png';
 import works03 from '../assets/works03/img01.png';
-import works04 from '../assets/works04/img01.png';
-import  worksComingSoon from '../assets/coming-soon.png';
-
+import worksComingSoon from '../assets/coming-soon.png';
 
 function Works() {
   const [isTitleVisible, setIsTitleVisible] = useState(false);
   const [isImageVisible, setIsImageVisible] = useState(false);
+  const [isH2Visible, setIsH2Visible] = useState(false);
 
   useEffect(() => {
     const titleObserver = new IntersectionObserver(
@@ -22,7 +21,7 @@ function Works() {
       },
       { threshold: 0.5 }
     );
-    
+
     const imageObserver = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -32,19 +31,27 @@ function Works() {
       { threshold: 0.5 }
     );
 
+    const h2Observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsH2Visible(true);
+        }
+      },
+      { threshold: 0.5 }
+    );
+
     const titleElement = document.querySelector('.content__title');
     const imageElements = document.querySelectorAll('.works_listItem_eyecatch');
+    const h2Elements = document.querySelectorAll('.works_title');  
 
     if (titleElement) titleObserver.observe(titleElement);
-    imageElements.forEach((el) => {
-      imageObserver.observe(el);
-    });
+    imageElements.forEach((el) => imageObserver.observe(el));
+    h2Elements.forEach((el) => h2Observer.observe(el)); 
 
     return () => {
       if (titleElement) titleObserver.unobserve(titleElement);
-      imageElements.forEach((el) => {
-        imageObserver.unobserve(el);
-      });
+      imageElements.forEach((el) => imageObserver.unobserve(el));
+      h2Elements.forEach((el) => h2Observer.unobserve(el));
     };
   }, []);
 
@@ -63,7 +70,7 @@ function Works() {
                     alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">PRICING TOOLS</h2>
+                    <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>PRICING TOOLS</h2>
                   </div>
                 </Link>
               </li>
@@ -75,7 +82,7 @@ function Works() {
                     alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">I Worked Here</h2>
+                    <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>Previous Company</h2>
                   </div>
                 </Link>
               </li>
@@ -87,7 +94,7 @@ function Works() {
                     alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">Spotify API × React - Portfolio</h2>
+                    <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>Spotify API × React - Portfolio</h2>
                   </div>
                 </Link>
               </li>
@@ -99,7 +106,7 @@ function Works() {
                     alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className="works_title">Comming Soon...</h2>
+                    <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>Coming Soon...</h2>
                   </div>
                 </Link>
               </li>
