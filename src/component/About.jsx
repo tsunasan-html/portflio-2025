@@ -45,7 +45,7 @@ function About() {
               Next.js,TypeScriptで開発されたWebサイトの保守運用にも携わり、<br className="line-break" />
               幅広い技術領域での業務を経験。<br /><br />
 
-              現在は、React,Next.js,TypeScriptでの開発スキルの向上中。<br />
+              現在は、React,Next.js,TypeScriptでの開発スキルを向上中。<br />
               ※このページはReactで作られています。
             </p>
           </section>
