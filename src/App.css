@@ -141,9 +141,10 @@ ul li a {
   }
   .main-visual {
     background-position: calc(62% + 10vw) center;
+    background-attachment: scroll; 
   }
   .main-visual__title {
-
+     position: absolute;  
     font-size: 4.8vw;
     line-height: 2em;
   }
