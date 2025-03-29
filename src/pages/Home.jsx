@@ -1,9 +1,9 @@
-import About from './component/About';
-import Contact from './component/Contact';
-import Works from './component/Works';
-import Footer from './component/Footer'; 
-import Layout from "./component/Layout"; 
-import Scroll from "./component/Scroll"; 
+import About from './About';
+import Contact from './Contact';
+import Works from './Works';
+import Footer from '../component/Footer'; 
+import Layout from "../component/Layout"; 
+import Scroll from "../component/Scroll"; 
 
 const title = "TETSUHIRO MUNEYUKI";
 const subtitle = "IT IS A WEB DESIGNER'S PORTFOLIO.";

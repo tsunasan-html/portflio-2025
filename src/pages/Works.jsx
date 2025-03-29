@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import '../assets/css/Works.css';
 import { Link } from 'react-router-dom';
 
-import works01 from '../assets/works01/img01.png';
-import works02 from '../assets/works02/img01.png';
-import works03 from '../assets/works03/img01.png';
-import worksComingSoon from '../assets/coming-soon.png';
+import works01 from '../assets/images/works01/img01.png';
+import works02 from '../assets/images/works02/img01.png';
+import works03 from '../assets/images/works03/img01.png';
+import worksComingSoon from '../assets/images/coming-soon.png';
 
 function Works() {
   const [isTitleVisible, setIsTitleVisible] = useState(false);

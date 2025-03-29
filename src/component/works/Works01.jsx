@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import '../../assets/css/WorksEach.css';
 import Footer from '../Footer';
 
-import img01 from '../../assets/works01/img01.png';
-import img02 from '../../assets/works01/img02.png';
-import img03 from '../../assets/works01/img03.png';
+import img01 from '../../assets/images/works01/img01.png';
+import img02 from '../../assets/images/works01/img02.png';
+import img03 from '../../assets/images/works01/img03.png';
 
 const images = [
   { src: img01, alt: "", className: "works_photoListItem--full", animate: "fadein scrollin" },
