@@ -35,7 +35,7 @@ function About() {
             <p className={`about__sentence animate-on-scroll ${isVisible ? 'visible' : ''}`}>
               1990年、愛媛県今治市生まれ。<br />
               <br />
-              2021年7月~2025年3月までにゴリラクリニック（SBC湘南美容外科グループ）にて、<br className="line-break" />
+              2021年7月~2025年3月までゴリラクリニック（SBC湘南美容外科グループ）にて、<br className="line-break" />
               Webサイト全般の保守運用および開発を担当。<br /><br />
               
               主にPHP,Vue.jsを使用したお問い合わせフォームの保守運用に従事し、<br className="line-break" />
