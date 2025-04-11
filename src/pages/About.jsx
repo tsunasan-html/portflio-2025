@@ -41,7 +41,7 @@ function About() {
               主にPHP,Vue.jsを使用したお問い合わせフォームの保守運用に従事し、<br className="line-break" />
               開発業務ではJS,GASを活用したフロントエンド開発などを経験。<br /><br />
 
-              また、VPSサーバーへのSSH接続を通じてデータベースの構築、<br className="line-break" />
+              また、Linux環境での作業や、MySQLによるデータベース構築・運用、<br className="line-break" />
               Next.js,TypeScriptで開発されたWebサイトの保守運用にも携わり、<br className="line-break" />
               幅広い技術領域での業務を経験。<br /><br />
 
