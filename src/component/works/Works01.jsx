@@ -83,18 +83,6 @@ function Works01() {
                 </p>
               </li>
             </ul>
-
-            <p className={`works_sentence animate-on-scroll ${isVisible ? 'visible' : ''}`}>
-              下記はReactで作成した簡易的な料金シミュレーション。
-              <br /> 
-              <a className="works_sentenc__a" href="https://price-simulation.vercel.app/" target="_blank" rel="noopener noreferrer">
-                VISIT WEBSITE
-              </a>
-              （※PC推奨）
-              <br />
-              <strong>ID:</strong> port<br />
-              <strong>PW:</strong> folio
-            </p>
           </section>
         </div>
       </div>
