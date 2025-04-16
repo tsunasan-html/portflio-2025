@@ -5,7 +5,7 @@ import Contact from './pages/Contact';
 import Works from './pages/Works';
 import Home from './pages/Home';
 
-import Header from "./component/Header";
+import AppHeader from './component/AppHeader';
 import Footer from './component/Footer'; 
 import Works01 from './component/works/Works01';
 import Works02 from './component/works/Works02';
@@ -28,7 +28,7 @@ function AppContent() {
 
   return (
     <>
-      <Header />
+      <AppHeader />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about/" element={<About />} />
