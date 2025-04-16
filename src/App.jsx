@@ -7,8 +7,8 @@ import Home from './pages/Home';
 
 import AppHeader from './component/AppHeader';
 import Footer from './component/Footer'; 
-import Works01 from './component/works/Works01';
-import Works02 from './component/works/Works02';
+import Works01 from './pages/works/Works01';
+import Works02 from './pages/works/Works02';
 import NotFound from "./component/NotFound"; 
 
 import './App.css';
