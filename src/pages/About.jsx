@@ -35,17 +35,16 @@ function About() {
             <p className={`about__sentence animate-on-scroll ${isVisible ? 'visible' : ''}`}>
               1990年、愛媛県今治市生まれ。<br />
               <br />
-              2021年7月~2025年3月までゴリラクリニック（SBC湘南美容外科グループ）にて、<br className="line-break" />
+              2025年3月まで、ゴリラクリニック（SBC湘南美容外科グループ）にて、<br className="line-break" />
               Webサイト全般の保守運用および開発を担当。<br /><br />
               
-              主にPHP,Vue.jsを使用したお問い合わせフォームの保守運用に従事し、<br className="line-break" />
-              開発業務ではJS,GASを活用したフロントエンド開発などを経験。<br /><br />
+              PHP、Vue.js (Option API)、Next.js、JavaScript、GASなどを駆使し、<br className="line-break" />
+              数多くのプロジェクトを経験。<br /><br />
 
-              また、Linux環境での作業や、MySQLによるデータベース構築・運用、<br className="line-break" />
-              Next.js,TypeScriptで開発されたWebサイトの保守運用にも携わり、<br className="line-break" />
-              幅広い技術領域での業務を経験。<br /><br />
+              現在、フロントエンドエンジニアとしてさらにスキルを磨くべく、<br className="line-break" />
+              転職活動を行っており、<br className="line-break" />
+              React、Next.js、TypeScriptを中心に技術力を向上中。<br /><br />
 
-              現在は、React,Next.js,TypeScriptでの開発スキルを向上中。<br />
               ※このページはReactで作られています。
             </p>
           </section>
