@@ -110,7 +110,7 @@ ul li a {
   letter-spacing: .2em;
   font-size: 2.25vw;
   color: rgb(249, 249, 249);
-  opacity: .9;
+  /* opacity: .9; */
   z-index: 1; 
 }
 
