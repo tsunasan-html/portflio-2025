@@ -38,7 +38,7 @@ function About() {
               2025年3月まで、ゴリラクリニック（SBC湘南美容外科グループ）にて、<br className="line-break" />
               Webサイト全般の保守運用および開発を担当。<br /><br />
               
-              PHP、Vue.js (Option API)、Next.js、JavaScript、GASなどを駆使し、<br className="line-break" />
+              PHP、Vue.js (Option API)、JavaScript、GASなどを駆使し、<br className="line-break" />
               数多くのプロジェクトを経験。<br /><br />
 
               現在、大学に通いながら、さらにスキルを磨くべく転職活動を行っており、<br className="line-break" />
