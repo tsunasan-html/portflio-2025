@@ -111,7 +111,30 @@ function Works() {
                    </div>
                  </Link>
                </li>
-           
+               <li className="works_listItem">
+                  <Link to="/works" target="_blank" className="">
+                    <img 
+                      src={worksComingSoon} 
+                      className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 
+                      alt="" 
+                    />
+                    <div className="works_listItem_textblock">
+                      <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>Coming Soon...</h2>
+                    </div>
+                  </Link>
+                </li>
+                <li className="works_listItem">
+                  <Link to="/works" target="_blank" className="">
+                    <img 
+                      src={worksComingSoon} 
+                      className={`works_listItem_eyecatch ${isImageVisible ? 'visible' : ''} fadein scrollin`} 
+                      alt="" 
+                    />
+                    <div className="works_listItem_textblock">
+                      <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>Coming Soon...</h2>
+                    </div>
+                  </Link>
+                </li>
             </ul>
           </section>
         </div>
