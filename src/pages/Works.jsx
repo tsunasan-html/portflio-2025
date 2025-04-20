@@ -71,7 +71,7 @@ function Works() {
                     alt="" 
                   />
                   <div className="works_listItem_textblock">
-                    <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>PRICING TOOLS APP / React Portfolio</h2>
+                    <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>Pricing Tools / React Portfolio</h2>
                   </div>
                 </Link>
               </li>
