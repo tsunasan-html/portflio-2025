@@ -107,7 +107,7 @@ function Works() {
                      alt="" 
                    />
                    <div className="works_listItem_textblock">
-                     <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>PokéAPI / Next.js SSR + CSR</h2>
+                     <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>PokéAPI SSR + CSR / Next.js Portfolio</h2>
                    </div>
                  </Link>
                </li>
