@@ -41,7 +41,7 @@ function About() {
               PHP、Vue.js (Option API)、JavaScript、GASなどを駆使し、<br className="line-break" />
               数多くのプロジェクトを経験。<br /><br />
 
-              現在、大学に通いながら、さらにスキルを磨くべく転職活動を行っており、<br className="line-break" />
+              現在、大学に通いながら、<br className="line-break" />
               React、Next.jsを中心に技術力を向上中。<br /><br />
 
               短期的にはフロントエンドエンジニアとして技術を極め、<br className="line-break" />
