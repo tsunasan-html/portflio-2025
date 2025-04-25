@@ -6,7 +6,7 @@ import Layout from "../component/Layout";
 import Scroll from "../component/Scroll"; 
 
 const title = "TETSUHIRO MUNEYUKI";
-const subtitle = "IT IS A WEB DESIGNER'S PORTFOLIO.";
+const subtitle = "IT IS A WEB DEVELOPER'S PORTFOLIO.";
 
 function Home() {
   return (
