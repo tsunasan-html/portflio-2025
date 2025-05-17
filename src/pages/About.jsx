@@ -33,16 +33,14 @@ function About() {
               <span className={`about__name-position animate-on-scroll ${isVisible ? 'visible' : ''}`}>WEB DESIGNER</span>
             </h2>
             <p className={`about__sentence animate-on-scroll ${isVisible ? 'visible' : ''}`}>
-              1990年、愛媛県今治市生まれ。<br />
-              <br />
-              2025年3月まで、ゴリラクリニック（SBC湘南美容外科グループ）にて、<br className="line-break" />
-              Webサイト全般の保守運用および開発を担当。<br /><br />
+              1990年、愛媛県今治市生まれ。<br /><br />
               
-              PHP、Vue.js (Option API)、JavaScript、GASなどを駆使し、<br className="line-break" />
+              これまでにフロントエンドエンジニアとして、<br className="line-break" />
+              PHP、Vue.js (Options API)、JavaScript、GASなどを駆使し、<br className="line-break" />
               数多くのプロジェクトを経験。<br /><br />
 
               現在、大学に通いながら、<br className="line-break" />
-              React、Next.jsを中心に技術力を向上中。<br /><br />
+              React、Vue.js（Composition API）、Javaの技術力を向上中。<br /><br />
 
               短期的にはフロントエンドエンジニアとして技術を極め、<br className="line-break" />
               長期的にはジェネラリストとして幅広く活躍したいと考えています。 

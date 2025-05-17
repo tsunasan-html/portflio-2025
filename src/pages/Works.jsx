@@ -61,7 +61,7 @@ function Works() {
       <div className="l-content content">
         <div className="l-content_inner content_inner">
           <section className="content__works">
-            <h1 className={`content__title ${isTitleVisible ? 'visible' : ''}`}>WORKS</h1>
+            <h1 className={`content__title ${isTitleVisible ? 'visible' : ''}`}>PORTFOLIO</h1>
             <ul className="works_list">
               <li className="works_listItem">
                 <Link to="https://price-tools.vercel.app/" target="_blank" className="">
@@ -75,7 +75,7 @@ function Works() {
                   </div>
                 </Link>
               </li>
-              <li className="works_listItem">
+              {/* <li className="works_listItem">
                 <Link target="_blank" to="https://gorilla.clinic/" className="">
                   <img 
                     src={works02} 
@@ -86,7 +86,7 @@ function Works() {
                     <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>Previous Company</h2>
                   </div>
                 </Link>
-              </li>
+              </li> */}
               <li className="works_listItem">
                 <Link to="https://spotify-app-ji1q.vercel.app/" target="_blank" className="">
                   <img
@@ -123,7 +123,7 @@ function Works() {
                     </div>
                   </Link>
                 </li>
-                <li className="works_listItem">
+                {/* <li className="works_listItem">
                   <Link to="/works" target="_blank" className="">
                     <img 
                       src={worksComingSoon} 
@@ -134,7 +134,7 @@ function Works() {
                       <h2 className={`works_title ${isH2Visible ? 'visible' : ''}`}>Coming Soon...</h2>
                     </div>
                   </Link>
-                </li>
+                </li> */}
             </ul>
           </section>
         </div>

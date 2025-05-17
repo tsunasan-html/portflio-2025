@@ -37,7 +37,7 @@ const HeaderSp = () => {
             <ul>
               <li><Link to="/" onClick={handleLinkClick}>HOME</Link></li>
               <li><Link to="/about/" onClick={handleLinkClick}>ABOUT</Link></li>
-              <li><Link to="/works/" onClick={handleLinkClick}>WORKS</Link></li>
+              <li><Link to="/portfolio/" onClick={handleLinkClick}>PORTFOLIO</Link></li>
               <li><Link to="/contact/" onClick={handleLinkClick}>CONTACT</Link></li>
             </ul>
           </div>

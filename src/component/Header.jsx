@@ -36,7 +36,7 @@ function Header() {
             <Link to="/about/" className={getLinkClass("/about/")}>ABOUT</Link>
           </li>
           <li className="header_inner_listItem header_inner_listItem--works">
-            <Link to="/works/" className={getLinkClass("/works/")}>WORKS</Link>
+            <Link to="/portfolio/" className={getLinkClass("/works/")}>PORTFOLIO</Link>
           </li>
           <li className="header_inner_listItem header_inner_listItem--contact">
             <Link to="/contact/" className={getLinkClass("/contact/")}>CONTACT</Link>
