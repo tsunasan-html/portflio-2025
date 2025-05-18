@@ -30,7 +30,7 @@ function About() {
             <h1 className={`about__title animate-on-scroll ${isVisible ? 'visible' : ''}`}>ABOUT</h1>
             <h2 className={`about__name animate-on-scroll ${isVisible ? 'visible' : ''}`}>
               TETSUHIRO MUNEYUKI
-              <span className={`about__name-position animate-on-scroll ${isVisible ? 'visible' : ''}`}>WEB DESIGNER</span>
+              <span className={`about__name-position animate-on-scroll ${isVisible ? 'visible' : ''}`}>WEB DEVELOPER</span>
             </h2>
             <p className={`about__sentence animate-on-scroll ${isVisible ? 'visible' : ''}`}>
               1990年、愛媛県今治市生まれ。<br /><br />
