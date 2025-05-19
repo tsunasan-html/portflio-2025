@@ -39,11 +39,11 @@ function About() {
               PHP、Vue.js (Options API)、JavaScript、GASなどを駆使し、<br className="line-break" />
               数多くのプロジェクトを経験。<br /><br />
 
-              現在、大学に通いながら、<br className="line-break" />
-              React、Vue.js（Composition API）、Javaの技術力を向上中。<br /><br />
+              現在、Vue.js（Composition API）、React Native、Spring Boot<br className="line-break" />を中心に技術力を向上中。
+              <br /><br />
 
-              短期的にはフロントエンドエンジニアとして技術を極め、<br className="line-break" />
-              長期的にはジェネラリストとして幅広く活躍したいと考えています。 
+              また、REST API、AWS、SQL、RDBなどの技術の習得にも取り組んでおり、<br className="line-break" />
+              将来的には幅広く活躍できるエンジニアを目指しています。
               <br /><br />     
 
               ※このページはReactで作られています。
