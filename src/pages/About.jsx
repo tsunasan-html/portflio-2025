@@ -33,8 +33,6 @@ function About() {
               <span className={`about__name-position animate-on-scroll ${isVisible ? 'visible' : ''}`}>WEB DEVELOPER</span>
             </h2>
             <p className={`about__sentence animate-on-scroll ${isVisible ? 'visible' : ''}`}>
-              1990年、愛媛県今治市生まれ。<br /><br />
-              
               これまでにフロントエンドエンジニアとして、<br className="line-break" />
               PHP、Vue.js (Options API)、JavaScript、GASなどを駆使し、<br className="line-break" />
               数多くのプロジェクトを経験。<br /><br />
