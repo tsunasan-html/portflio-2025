@@ -43,7 +43,6 @@ function About() {
               また、REST API、AWS、SQL、RDBなどの技術の習得にも取り組んでおり、<br className="line-break" />
               将来的には幅広く活躍できるエンジニアを目指しています。
               <br /><br />     
-
               ※このページはReactで作られています。
             </p>
           </section>
