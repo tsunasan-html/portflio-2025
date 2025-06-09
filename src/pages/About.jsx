@@ -32,6 +32,7 @@ function About() {
               TETSUHIRO MUNEYUKI
               <span className={`about__name-position animate-on-scroll ${isVisible ? 'visible' : ''}`}>WEB DEVELOPER</span>
             </h2>
+            
             <p className={`about__sentence animate-on-scroll ${isVisible ? 'visible' : ''}`}>
               これまでにフロントエンドエンジニアとして、<br className="line-break" />
               PHP、Vue.js (Options API)、JavaScript、GASなどを駆使し、<br className="line-break" />
